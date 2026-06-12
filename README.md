@@ -13,9 +13,6 @@ An immersive, touch-friendly, 3D exploration tool built to bridge the gap betwee
 
 ##  Preview & Demo
 
-### Application Interface Mockup
-![Kidney Anatomy Explorer Preview](./preview.png)
-
 ### Experience It Live
 **Live Demo:** (https://kidney-anatomy-simulation.vercel.app/)  
 *Or run it locally by following the [Installation & Setup](#installation-and-setup) instructions below.*
