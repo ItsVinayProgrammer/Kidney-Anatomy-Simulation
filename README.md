@@ -20,6 +20,8 @@ An immersive, touch-friendly, 3D exploration tool built to bridge the gap betwee
 **Live Demo:** [Coming Soon](https://github.com)  
 *Or run it locally by following the [Installation & Setup](#-installation-and-setup) instructions below.*
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1612284c-2365-4057-9839-365323cf85a0" />
+
 ---
 
 ## Why This Project Exists
@@ -181,7 +183,7 @@ By using this explorer, students will master:
 
 ## Author
 
-* **Vinay Verma / Github Profile** - [Your GitHub Profile](https://github.com/ItsVinayProgrammer)
+* **Vinay Verma / Github Profile** - [Vinay Verma](https://github.com/ItsVinayProgrammer)
 * Feel free to reach out for collaboration or improvements!
 
 ---
