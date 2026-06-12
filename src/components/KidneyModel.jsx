@@ -434,6 +434,7 @@ export default function KidneyModel({
   selectedPartId,
   activeSide,
   onSelectPart,
+  onClearSelection,
   labelsVisible,
   selectedLabelVisible,
   resetSignal,
@@ -445,6 +446,7 @@ export default function KidneyModel({
       dpr={[1, 1.8]}
       shadows
       gl={{ antialias: true, powerPreference: "high-performance" }}
+      onPointerMissed={onClearSelection}
     >
       <color attach="background" args={["#c7d2d6"]} />
       <fog attach="fog" args={["#c7d2d6", 7, 12]} />
@@ -461,7 +463,15 @@ export default function KidneyModel({
           selectedLabelVisible={selectedLabelVisible}
         />
       </Suspense>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -1.96, 0]} receiveShadow>
+      <mesh
+        rotation={[-Math.PI / 2, 0, 0]}
+        position={[0, -1.96, 0]}
+        receiveShadow
+        onClick={(event) => {
+          event.stopPropagation();
+          onClearSelection?.();
+        }}
+      >
         <circleGeometry args={[2.6, 64]} />
         <meshStandardMaterial color="#b8c4c7" roughness={0.95} />
       </mesh>

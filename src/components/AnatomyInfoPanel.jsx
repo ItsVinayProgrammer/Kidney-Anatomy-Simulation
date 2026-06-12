@@ -1,4 +1,36 @@
 export default function AnatomyInfoPanel({ selectedPart }) {
+  if (!selectedPart) {
+    return (
+      <section className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+        <div className="mb-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-teal-700">
+            Overview
+          </p>
+          <h2 className="text-2xl font-bold text-slate-950">
+            Human Excretory System
+          </h2>
+          <p className="mt-2 text-sm leading-6 text-slate-700">
+            This interactive 3D model helps you explore the main parts of the
+            human urinary system. Click any part of the model to learn its
+            function, importance, and Class 11 Biology connection.
+          </p>
+        </div>
+
+        <div className="space-y-2 text-sm leading-6 text-slate-700">
+          <p>Kidneys filter blood and remove waste.</p>
+          <p>Ureters carry urine to the bladder.</p>
+          <p>The urinary bladder stores urine.</p>
+          <p>Renal artery brings blood to the kidney.</p>
+          <p>Renal vein carries filtered blood away.</p>
+        </div>
+
+        <p className="mt-4 rounded-md bg-teal-50 px-3 py-2 text-sm font-semibold text-teal-900">
+          Click any part of the model or choose from Anatomy parts to start learning.
+        </p>
+      </section>
+    );
+  }
+
   const sections = [
     ["What is it?", selectedPart.definition],
     ["Main function", selectedPart.function],

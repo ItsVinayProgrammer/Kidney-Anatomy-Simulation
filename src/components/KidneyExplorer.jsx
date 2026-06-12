@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import AnatomyInfoPanel from "./AnatomyInfoPanel.jsx";
 import GuidedLearning from "./GuidedLearning.jsx";
 import KidneyModel from "./KidneyModel.jsx";
@@ -33,18 +33,41 @@ export default function KidneyExplorer() {
   const [activeSide, setActiveSide] = useState("left");
   const [activeTab, setActiveTab] = useState("learn");
   const [guideStep, setGuideStep] = useState(0);
+  const quizModelModeRef = useRef(null);
 
   const partList = useMemo(
     () => interactivePartIds.map((partId) => kidneyParts[partId]),
     []
   );
 
-  const selectPart = (partId, sideOverride) => {
+  const highlightPart = useCallback((partId, sideOverride) => {
     setSelectedLabelVisible(true);
     const nextSide = sideOverride ?? getDefaultSideForPart(partId, activeSide);
     setSelectedPartId(partId);
     if (nextSide) setActiveSide(nextSide);
+  }, [activeSide, setSelectedPartId]);
+
+  const clearSelection = useCallback(() => {
+    setSelectedPartId(null);
+    setSelectedLabelVisible(false);
+  }, [setSelectedPartId]);
+
+  const handleEmptyViewerClick = useCallback(() => {
+    clearSelection();
+  }, [clearSelection]);
+
+  const selectPart = (partId, sideOverride) => {
+    if (quizModelModeRef.current?.onPartClick) {
+      const handledByQuiz = quizModelModeRef.current.onPartClick(partId, sideOverride);
+      if (handledByQuiz) return;
+    }
+
+    highlightPart(partId, sideOverride);
   };
+
+  const handleQuizModeChange = useCallback((mode) => {
+    quizModelModeRef.current = mode;
+  }, []);
 
   const handleGuideStep = (nextStep) => {
     const safeStep = Math.min(Math.max(nextStep, 0), guidedSteps.length - 1);
@@ -79,6 +102,7 @@ export default function KidneyExplorer() {
             selectedLabelVisible={selectedLabelVisible}
             resetSignal={resetSignal}
             viewPreset={cameraView}
+            onClearSelection={handleEmptyViewerClick}
           />
 
           <div className="pointer-events-none absolute left-3 top-3 max-w-[78%] rounded-lg bg-white/90 px-3 py-2 shadow-sm backdrop-blur sm:left-4 sm:top-4 sm:max-w-md">
@@ -140,7 +164,13 @@ export default function KidneyExplorer() {
                     ? "bg-teal-700 text-white"
                     : "text-slate-700 hover:bg-slate-100",
                 ].join(" ")}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => {
+                  if (activeTab === "quiz" && tab.id !== "quiz") {
+                    clearSelection();
+                    handleQuizModeChange(null);
+                  }
+                  setActiveTab(tab.id);
+                }}
               >
                 {tab.label}
               </button>
@@ -210,7 +240,13 @@ export default function KidneyExplorer() {
             </>
           )}
 
-          {activeTab === "quiz" && <KidneyQuiz />}
+          {activeTab === "quiz" && (
+            <KidneyQuiz
+              onQuizModeChange={handleQuizModeChange}
+              onHighlightPart={highlightPart}
+              onClearHighlight={clearSelection}
+            />
+          )}
         </aside>
       </div>
     </main>

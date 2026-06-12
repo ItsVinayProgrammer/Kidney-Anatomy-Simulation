@@ -37,38 +37,40 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 
 * 🧬 **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
 * 🔦 **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
-* 🏷️ **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
+* 🏷 **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
 * 📘 **Class 11 Biology Focus:** Every explanation is tailored to school syllabus level, offering definitions, functions, and NCERT-aligned exam tips.
-* 🎛️ **Quick View Buttons:** Effortlessly orbit to default viewpoints (e.g. Front View, Left Kidney close-up, Internal structures) with one click.
-* 🎓 **Guided Tour Mode:** Step-by-step learning walkthrough tracing the path of blood filtration and urine elimination.
-* ✍️ **Biology Quiz Section:** Interactive, self-grading multiple-choice quiz testing renal physiology and anatomical pathways.
-* 📱 **Responsive Design:** Beautiful, premium dark-mode dashboard fitting mobile screens, tablets, and school smartboards.
+* 🎛 **Quick View Buttons:** Effortlessly orbit to default viewpoints (e.g. Full system, Left Kidney close-up, Right Kidney close-up, Bladder) with one click.
+* 🧭 **Path Mode:** Step-by-step learning walkthrough tracing the path of blood filtration and urine elimination.
+* 🎓 **Interactive Quiz:** Standardized multiple-choice questions mixed with model-click tasks ("Click the correct part on the 3D model").
+* 🔄 **Unlimited Retry System:** Students learn through discovery; wrong attempts show helpful hints, and answers are never automatically revealed.
+* 📊 **Compact Progress Dashboard:** Real-time metrics inside the quiz tracking questions completed, score, accuracy percentage, total attempts, wrong attempts, and current streak.
+* 🏆 **Parts Mastered Tracking:** Awards visual badges/chips for every anatomical part correctly identified in the quiz.
+* 🧹 **Consistent Deselection:** Click empty space on the 3D viewer in any mode (Learn, Path, or Quiz) to instantly clear highlights and labels.
 
 ---
 
-## 🛠️ Anatomy Parts Explorer
+## 🧑‍🎓 Learning Flow
+
+1. **Explore (Learn Mode):** Spin and zoom the model. Click on any organ, blood vessel, or inner structure to open its descriptive biology panel.
+2. **Trace (Path Mode):** Walk through the step-by-step guide outlining how blood enters the kidney, gets filtered, and leaves the body as urine.
+3. **Assess (Quiz Mode):** Take a randomized quiz testing identification skills and anatomical pathways. Learn from wrong clicks using smart hints.
+4. **Master (Progress Dashboard):** Complete the quiz to see your final score card, accuracy percentage, and list of parts mastered.
+
+---
+
+## 🛠 Anatomy Parts Explorer
 
 Clicking any part on the 3D model highlights it and opens a dedicated knowledge panel. Here is a breakdown of the parts detailed in the app:
 
-| Organ / Structure | Visual Key | Core Biological Function | Class 11 NCERT Syllabus Connection |
-| :--- | :---: | :--- | :--- |
-| **Left & Right Kidney** | 🟥 | Filters nitrogenous wastes (urea) & maintains osmoregulation. | Primary excretory organs in human physiology. |
-| **Renal Artery** | 🔴 | Brings oxygenated, waste-rich blood from aorta into kidneys. | Point of entry for filtration; high pressure supply. |
-| **Renal Vein** | 🔵 | Carries deoxygenated, filtered blood back into systemic circulation. | Lacks urea compared to the renal artery. |
-| **Left & Right Ureter** | 🟡 | Transports urine from renal pelvis to the urinary bladder. | Relies on peristaltic muscle movements for transport. |
-| **Urinary Bladder** | 🟨 | Muscular sac that temporarily stores urine. | Detrusor muscle contraction triggers micturition. |
-| **Renal Cortex** | 🌸 | Outer kidney layer containing glomeruli and convoluted tubules. | Site of ultrafiltration in nephrons. |
-| **Renal Medulla** | 🍊 | Inner kidney layer organized into renal pyramids. | Concentration of urine (counter-current mechanism). |
-
----
-
-## 🧑‍🎓 How Students Use It
-
-1. **Rotate & Inspect:** Drag to spin the 3D model, scroll to zoom, and locate organs.
-2. **Select & Study:** Click directly on any organ or vessel (or select it from the list/quick view).
-3. **Absorb Knowledge:** Read the right-side information panel detailing definitions, key functions, exam tips, and memory devices.
-4. **Follow the Flow:** Toggle **Guided Tour** to watch the sequential path of blood entering, filtering, and leaving the system.
-5. **Test Retention:** Take the built-in **Anatomy Quiz** to check preparation for biology exams.
+| Organ / Structure | Core Biological Function | Class 11 NCERT Syllabus Connection |
+| :--- | :--- | :--- |
+| **Left & Right Kidney** | Filters nitrogenous wastes (urea) & maintains osmoregulation. | Primary excretory organs in human physiology. |
+| **Renal Artery** | Brings oxygenated, waste-rich blood from aorta into kidneys. | Point of entry for filtration; high pressure supply. |
+| **Renal Vein** | Carries deoxygenated, filtered blood back into systemic circulation. | Lacks urea compared to the renal artery. |
+| **Left & Right Ureter** | Transports urine from renal pelvis to the urinary bladder. | Relies on peristaltic muscle movements for transport. |
+| **Urinary Bladder** | Muscular sac that temporarily stores urine. | Detrusor muscle contraction triggers micturition. |
+| **Renal Cortex** | Outer kidney layer containing glomeruli and convoluted tubules. | Site of ultrafiltration in nephrons. |
+| **Renal Medulla** | Inner kidney layer organized into renal pyramids. | Concentration of urine (counter-current mechanism). |
 
 ---
 
@@ -144,6 +146,24 @@ Make sure you have [Node.js (version 16 or above)](https://nodejs.org/) installe
 
 ---
 
+## 🌐 Vercel Deployment
+
+This project is configured for seamless deployment to **Vercel** with one click.
+
+### Deployment settings:
+* **Framework Preset:** `Vite`
+* **Build Command:** `npm run build`
+* **Output Directory:** `dist`
+* **Install Command:** `npm install`
+
+### Steps to Deploy:
+1. Push your code repository to GitHub/GitLab/Bitbucket.
+2. Sign in to your [Vercel Dashboard](https://vercel.com).
+3. Click **New Project** and select your imported repository.
+4. Verify the build settings match above and click **Deploy**.
+
+---
+
 ## 🎓 Learning Outcomes (Class 11 Physiology)
 
 By using this explorer, students will master:
@@ -154,19 +174,10 @@ By using this explorer, students will master:
 
 ---
 
-## 🎨 UI/UX Highlights
-
-* **Glassmorphic HUD:** Transparent panels that sit beautifully over the dark cosmic space background.
-* **Smooth Orbit Controls:** Automatic damping for realistic momentum when rotating or panning the model.
-* **Dynamic Orthographic Alignment:** Single-click buttons to snap the camera directly to front, back, or detailed sections without manual searching.
-* **Focus States:** Selected parts have their colors saturated while unselected parts dim slightly, making visual isolation immediate.
-
----
-
 ## 🚀 Future Scope
 
 * 🔬 **Microscopic Zoom:** Click to dive deep into a 3D simulation of a single **Nephron** showing Bowman’s capsule, PCT, Loop of Henle, and DCT.
-* 🔴 **Urine Formation Animation:** Particle effects showing urea and water being separated, flowing down the tubules, and exiting down the ureters.
+* 🩸 **Urine Formation Animation:** Dynamic visuals representing urine filtration and concentration flows.
 * 🩺 **Clinical Case Studies:** Real-world biological conditions like kidney stones (renal calculi), glomerulonephritis, and dialysis simulations.
 * 🕶️ **WebXR Support:** Virtual Reality (VR) and Augmented Reality (AR) mode for immersive VR classrooms.
 
@@ -181,7 +192,7 @@ By using this explorer, students will master:
 
 ## 👤 Author
 
-* **Your Name / Github Profile** - [Your GitHub Profile](https://github.com/YourUsername)
+* **Vinay Verma / Github Profile** - [Vinay Verma](https://github.com/ItsVinayProgrammer)
 * Feel free to reach out for collaboration or improvements!
 
 ---
