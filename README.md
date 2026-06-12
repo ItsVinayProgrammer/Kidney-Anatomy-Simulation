@@ -17,7 +17,8 @@ An immersive, touch-friendly, 3D exploration tool built to bridge the gap betwee
 **Live Demo:** (https://kidney-anatomy-simulation.vercel.app/)  
 *Or run it locally by following the [Installation & Setup](#installation-and-setup) instructions below.*
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1612284c-2365-4057-9839-365323cf85a0" />
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/9bc1d552-184e-4fdc-b8f2-daa8e62f0dba" />
+
 
 ---
 
