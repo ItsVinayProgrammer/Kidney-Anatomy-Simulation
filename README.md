@@ -37,7 +37,6 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 
 ## Key Features
 
-<<<<<<< HEAD
 * **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
 * **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
 * **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
