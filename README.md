@@ -1,4 +1,4 @@
-# 🔬 Kidney Anatomy Explorer
+# Kidney Anatomy Explorer
 > An interactive 3D Class 11 Biology learning lab for exploring the human excretory system.
 
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)](https://vite.dev/)
@@ -11,18 +11,20 @@ An immersive, touch-friendly, 3D exploration tool built to bridge the gap betwee
 
 ---
 
-## 📸 Preview & Demo
+##  Preview & Demo
 
 ### Application Interface Mockup
 ![Kidney Anatomy Explorer Preview](./preview.png)
 
 ### Experience It Live
-🌐 **Live Demo:** [Coming Soon](https://github.com)  
+**Live Demo:** [Coming Soon](https://github.com)  
 *Or run it locally by following the [Installation & Setup](#-installation-and-setup) instructions below.*
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1612284c-2365-4057-9839-365323cf85a0" />
 
 ---
 
-## 🎯 Why This Project Exists
+## Why This Project Exists
 
 Traditional biology education relies heavily on 2D cross-sections that fail to convey the three-dimensional relationship between organs, blood supply networks, and waste pathways. 
 
@@ -33,8 +35,9 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 
 ---
 
-## ✨ Key Features
+## Key Features
 
+<<<<<<< HEAD
 * 🧬 **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
 * 🔦 **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
 * 🏷 **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
@@ -59,6 +62,20 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 ---
 
 ## 🛠 Anatomy Parts Explorer
+=======
+* **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
+* **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
+* **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
+* **Class 11 Biology Focus:** Every explanation is tailored to school syllabus level, offering definitions, functions, and NCERT-aligned exam tips.
+* **Quick View Buttons:** Effortlessly orbit to default viewpoints (e.g. Front View, Left Kidney close-up, Internal structures) with one click.
+* **Guided Tour Mode:** Step-by-step learning walkthrough tracing the path of blood filtration and urine elimination.
+* **Biology Quiz Section:** Interactive, self-grading multiple-choice quiz testing renal physiology and anatomical pathways.
+* **Responsive Design:** Beautiful, premium dark-mode dashboard fitting mobile screens, tablets, and school smartboards.
+
+---
+
+## Anatomy Parts Explorer
+>>>>>>> 825d6ef50f0357a45381012086fa8ed7473cfa82
 
 Clicking any part on the 3D model highlights it and opens a dedicated knowledge panel. Here is a breakdown of the parts detailed in the app:
 
@@ -71,10 +88,23 @@ Clicking any part on the 3D model highlights it and opens a dedicated knowledge 
 | **Urinary Bladder** | Muscular sac that temporarily stores urine. | Detrusor muscle contraction triggers micturition. |
 | **Renal Cortex** | Outer kidney layer containing glomeruli and convoluted tubules. | Site of ultrafiltration in nephrons. |
 | **Renal Medulla** | Inner kidney layer organized into renal pyramids. | Concentration of urine (counter-current mechanism). |
+<<<<<<< HEAD
+=======
 
 ---
 
-## 💻 Tech Stack
+## How Students Use It
+
+1. **Rotate & Inspect:** Drag to spin the 3D model, scroll to zoom, and locate organs.
+2. **Select & Study:** Click directly on any organ or vessel (or select it from the list/quick view).
+3. **Absorb Knowledge:** Read the right-side information panel detailing definitions, key functions, exam tips, and memory devices.
+4. **Follow the Flow:** Toggle **Guided Tour** to watch the sequential path of blood entering, filtering, and leaving the system.
+5. **Test Retention:** Take the built-in **Anatomy Quiz** to check preparation for biology exams.
+>>>>>>> 825d6ef50f0357a45381012086fa8ed7473cfa82
+
+---
+
+## Tech Stack
 
 The explorer is engineered with modern, high-performance web tools:
 
@@ -117,7 +147,7 @@ kidney-anatomy-explorer/
 
 ---
 
-## ⚡ Installation and Setup
+## Installation and Setup
 
 Follow these steps to run the Kidney Anatomy Explorer on your local computer:
 
@@ -146,6 +176,7 @@ Make sure you have [Node.js (version 16 or above)](https://nodejs.org/) installe
 
 ---
 
+<<<<<<< HEAD
 ## 🌐 Vercel Deployment
 
 This project is configured for seamless deployment to **Vercel** with one click.
@@ -165,6 +196,9 @@ This project is configured for seamless deployment to **Vercel** with one click.
 ---
 
 ## 🎓 Learning Outcomes (Class 11 Physiology)
+=======
+## Learning Outcomes (Class 11 Physiology)
+>>>>>>> 825d6ef50f0357a45381012086fa8ed7473cfa82
 
 By using this explorer, students will master:
 * **The anatomical pathway of urine:** Kidneys $\rightarrow$ Ureters $\rightarrow$ Urinary Bladder $\rightarrow$ Urethra.
@@ -174,23 +208,41 @@ By using this explorer, students will master:
 
 ---
 
+<<<<<<< HEAD
 ## 🚀 Future Scope
 
 * 🔬 **Microscopic Zoom:** Click to dive deep into a 3D simulation of a single **Nephron** showing Bowman’s capsule, PCT, Loop of Henle, and DCT.
 * 🩸 **Urine Formation Animation:** Dynamic visuals representing urine filtration and concentration flows.
 * 🩺 **Clinical Case Studies:** Real-world biological conditions like kidney stones (renal calculi), glomerulonephritis, and dialysis simulations.
 * 🕶️ **WebXR Support:** Virtual Reality (VR) and Augmented Reality (AR) mode for immersive VR classrooms.
+=======
+## UI/UX Highlights
+
+* **Glassmorphic HUD:** Transparent panels that sit beautifully over the dark cosmic space background.
+* **Smooth Orbit Controls:** Automatic damping for realistic momentum when rotating or panning the model.
+* **Dynamic Orthographic Alignment:** Single-click buttons to snap the camera directly to front, back, or detailed sections without manual searching.
+* **Focus States:** Selected parts have their colors saturated while unselected parts dim slightly, making visual isolation immediate.
 
 ---
 
-## 🤝 Credits
+## Future Scope
+
+* **Microscopic Zoom:** Click to dive deep into a 3D simulation of a single **Nephron** showing Bowman’s capsule, PCT, Loop of Henle, and DCT.
+* **Urine Formation Animation:** Particle effects showing urea and water being separated, flowing down the tubules, and exiting down the ureters.
+* **Clinical Case Studies:** Real-world biological conditions like kidney stones (renal calculi), glomerulonephritis, and dialysis simulations.
+* **WebXR Support:** Virtual Reality (VR) and Augmented Reality (AR) mode for immersive VR classrooms.
+>>>>>>> 825d6ef50f0357a45381012086fa8ed7473cfa82
+
+---
+
+## Credits
 
 * **3D Asset Source:** Optimized anatomically-representative urinary system GLB model.
 * **Educational Reference:** NCERT Class 11 Biology Textbooks (Chapter: *Excretory Products and their Elimination*).
 
 ---
 
-## 👤 Author
+## Author
 
 * **Vinay Verma / Github Profile** - [Vinay Verma](https://github.com/ItsVinayProgrammer)
 * Feel free to reach out for collaboration or improvements!
