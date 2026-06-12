@@ -52,15 +52,15 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 
 Clicking any part on the 3D model highlights it and opens a dedicated knowledge panel. Here is a breakdown of the parts detailed in the app:
 
-| Organ / Structure | Visual Key | Core Biological Function | Class 11 NCERT Syllabus Connection |
-| :--- | :---: | :--- | :--- |
-| **Left & Right Kidney** | 🟥 | Filters nitrogenous wastes (urea) & maintains osmoregulation. | Primary excretory organs in human physiology. |
-| **Renal Artery** | 🔴 | Brings oxygenated, waste-rich blood from aorta into kidneys. | Point of entry for filtration; high pressure supply. |
-| **Renal Vein** | 🔵 | Carries deoxygenated, filtered blood back into systemic circulation. | Lacks urea compared to the renal artery. |
-| **Left & Right Ureter** | 🟡 | Transports urine from renal pelvis to the urinary bladder. | Relies on peristaltic muscle movements for transport. |
-| **Urinary Bladder** | 🟨 | Muscular sac that temporarily stores urine. | Detrusor muscle contraction triggers micturition. |
-| **Renal Cortex** | 🌸 | Outer kidney layer containing glomeruli and convoluted tubules. | Site of ultrafiltration in nephrons. |
-| **Renal Medulla** | 🍊 | Inner kidney layer organized into renal pyramids. | Concentration of urine (counter-current mechanism). |
+| Organ / Structure | Core Biological Function | Class 11 NCERT Syllabus Connection |
+| :--- | :--- | :--- |
+| **Left & Right Kidney** | Filters nitrogenous wastes (urea) & maintains osmoregulation. | Primary excretory organs in human physiology. |
+| **Renal Artery** | Brings oxygenated, waste-rich blood from aorta into kidneys. | Point of entry for filtration; high pressure supply. |
+| **Renal Vein** | Carries deoxygenated, filtered blood back into systemic circulation. | Lacks urea compared to the renal artery. |
+| **Left & Right Ureter** | Transports urine from renal pelvis to the urinary bladder. | Relies on peristaltic muscle movements for transport. |
+| **Urinary Bladder** | Muscular sac that temporarily stores urine. | Detrusor muscle contraction triggers micturition. |
+| **Renal Cortex** | Outer kidney layer containing glomeruli and convoluted tubules. | Site of ultrafiltration in nephrons. |
+| **Renal Medulla** | Inner kidney layer organized into renal pyramids. | Concentration of urine (counter-current mechanism). |
 
 ---
 
