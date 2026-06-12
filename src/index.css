@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #172033;
+  background: #eef5f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.viewer-grid {
+  grid-template-columns: minmax(0, 7fr) minmax(320px, 3fr);
+}
+
+@media (max-width: 1023px) {
+  .viewer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel-scroll {
+  scrollbar-color: #9bb7b3 transparent;
+  scrollbar-width: thin;
+}
+
+.label-button {
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.11);
+}
+
+.quiz-option:focus-visible,
+.control-button:focus-visible {
+  outline: 3px solid rgba(20, 184, 166, 0.45);
+  outline-offset: 2px;
+}
