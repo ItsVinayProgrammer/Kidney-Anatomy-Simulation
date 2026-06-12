@@ -38,7 +38,7 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 ## Key Features
 
 * 🧬 **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
-* 🔦 **Dynamic Highlighting & Glow:** Selected parts stand out with outline glowing highlights while retaining their realistic GLB textures.
+* 🔦 **Dynamic Highlighting & Glow:** Selected parts stand out with glowing highlights while retaining their realistic GLB textures.
 * 🏷 **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
 * 📘 **Class 11 Biology Focus:** Every explanation is tailored to school syllabus level, offering definitions, functions, and NCERT-aligned exam tips.
 * 🌐 **Bilingual English/Tamil Support:** Clean language toggle button (`EN | தமிழ்`) in the top-right corner to switch all interface texts, labels, explanations, learning paths, and quiz questions instantly.
