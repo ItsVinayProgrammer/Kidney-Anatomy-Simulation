@@ -38,21 +38,21 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 ## Key Features
 
 <<<<<<< HEAD
-* 🧬 **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
-* 🔦 **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
-* 🏷 **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
-* 📘 **Class 11 Biology Focus:** Every explanation is tailored to school syllabus level, offering definitions, functions, and NCERT-aligned exam tips.
-* 🎛 **Quick View Buttons:** Effortlessly orbit to default viewpoints (e.g. Full system, Left Kidney close-up, Right Kidney close-up, Bladder) with one click.
-* 🧭 **Path Mode:** Step-by-step learning walkthrough tracing the path of blood filtration and urine elimination.
-* 🎓 **Interactive Quiz:** Standardized multiple-choice questions mixed with model-click tasks ("Click the correct part on the 3D model").
-* 🔄 **Unlimited Retry System:** Students learn through discovery; wrong attempts show helpful hints, and answers are never automatically revealed.
-* 📊 **Compact Progress Dashboard:** Real-time metrics inside the quiz tracking questions completed, score, accuracy percentage, total attempts, wrong attempts, and current streak.
-* 🏆 **Parts Mastered Tracking:** Awards visual badges/chips for every anatomical part correctly identified in the quiz.
-* 🧹 **Consistent Deselection:** Click empty space on the 3D viewer in any mode (Learn, Path, or Quiz) to instantly clear highlights and labels.
+* **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
+* **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
+* **Anatomy Callout Labels:** High-fidelity 3D HTML annotations anchored to their exact anatomical coordinates, keeping labels clean and readable.
+* **Class 11 Biology Focus:** Every explanation is tailored to school syllabus level, offering definitions, functions, and NCERT-aligned exam tips.
+* **Quick View Buttons:** Effortlessly orbit to default viewpoints (e.g. Full system, Left Kidney close-up, Right Kidney close-up, Bladder) with one click.
+* **Path Mode:** Step-by-step learning walkthrough tracing the path of blood filtration and urine elimination.
+* **Interactive Quiz:** Standardized multiple-choice questions mixed with model-click tasks ("Click the correct part on the 3D model").
+* **Unlimited Retry System:** Students learn through discovery; wrong attempts show helpful hints, and answers are never automatically revealed.
+* **Compact Progress Dashboard:** Real-time metrics inside the quiz tracking questions completed, score, accuracy percentage, total attempts, wrong attempts, and current streak.
+* **Parts Mastered Tracking:** Awards visual badges/chips for every anatomical part correctly identified in the quiz.
+* **Consistent Deselection:** Click empty space on the 3D viewer in any mode (Learn, Path, or Quiz) to instantly clear highlights and labels.
 
 ---
 
-## 🧑‍🎓 Learning Flow
+## Learning Flow
 
 1. **Explore (Learn Mode):** Spin and zoom the model. Click on any organ, blood vessel, or inner structure to open its descriptive biology panel.
 2. **Trace (Path Mode):** Walk through the step-by-step guide outlining how blood enters the kidney, gets filtered, and leaves the body as urine.
@@ -61,7 +61,7 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 
 ---
 
-## 🛠 Anatomy Parts Explorer
+## Anatomy Parts Explorer
 =======
 * **Interactive 3D Kidney Model:** Fully rotatable, zoomable, and clickable 3D GLB model representing the human urinary system.
 * **Dynamic Highlighting & Glow:** Clicked parts light up with customized neon glow outlines, emphasizing boundaries.
@@ -75,7 +75,6 @@ Traditional biology education relies heavily on 2D cross-sections that fail to c
 ---
 
 ## Anatomy Parts Explorer
->>>>>>> 825d6ef50f0357a45381012086fa8ed7473cfa82
 
 Clicking any part on the 3D model highlights it and opens a dedicated knowledge panel. Here is a breakdown of the parts detailed in the app:
 
@@ -177,7 +176,7 @@ Make sure you have [Node.js (version 16 or above)](https://nodejs.org/) installe
 ---
 
 <<<<<<< HEAD
-## 🌐 Vercel Deployment
+## Vercel Deployment
 
 This project is configured for seamless deployment to **Vercel** with one click.
 
@@ -195,10 +194,9 @@ This project is configured for seamless deployment to **Vercel** with one click.
 
 ---
 
-## 🎓 Learning Outcomes (Class 11 Physiology)
+## Learning Outcomes (Class 11 Physiology)
 =======
 ## Learning Outcomes (Class 11 Physiology)
->>>>>>> 825d6ef50f0357a45381012086fa8ed7473cfa82
 
 By using this explorer, students will master:
 * **The anatomical pathway of urine:** Kidneys $\rightarrow$ Ureters $\rightarrow$ Urinary Bladder $\rightarrow$ Urethra.
@@ -209,12 +207,12 @@ By using this explorer, students will master:
 ---
 
 <<<<<<< HEAD
-## 🚀 Future Scope
+## Future Scope
 
-* 🔬 **Microscopic Zoom:** Click to dive deep into a 3D simulation of a single **Nephron** showing Bowman’s capsule, PCT, Loop of Henle, and DCT.
-* 🩸 **Urine Formation Animation:** Dynamic visuals representing urine filtration and concentration flows.
-* 🩺 **Clinical Case Studies:** Real-world biological conditions like kidney stones (renal calculi), glomerulonephritis, and dialysis simulations.
-* 🕶️ **WebXR Support:** Virtual Reality (VR) and Augmented Reality (AR) mode for immersive VR classrooms.
+* **Microscopic Zoom:** Click to dive deep into a 3D simulation of a single **Nephron** showing Bowman’s capsule, PCT, Loop of Henle, and DCT.
+* **Urine Formation Animation:** Dynamic visuals representing urine filtration and concentration flows.
+* **Clinical Case Studies:** Real-world biological conditions like kidney stones (renal calculi), glomerulonephritis, and dialysis simulations.
+* **WebXR Support:** Virtual Reality (VR) and Augmented Reality (AR) mode for immersive VR classrooms.
 =======
 ## UI/UX Highlights
 
